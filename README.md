@@ -1,5 +1,7 @@
 # 19 — SOAR Automation (Shuffle) — Auto-Enrich & Contain
 
+[![CI](https://github.com/BL3IP/soar-shuffle-playbook/actions/workflows/ci.yml/badge.svg)](https://github.com/BL3IP/soar-shuffle-playbook/actions/workflows/ci.yml)
+
 A **Shuffle** SOAR platform deployed with Docker, plus an **auto-enrich → decide → contain**
 playbook that enriches a suspicious IP and takes a containment action — the core of SOC automation.
 
