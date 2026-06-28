@@ -1,0 +1,5 @@
+﻿NAME                 IMAGE                                     COMMAND                  SERVICE      CREATED              STATUS              PORTS
+shuffle-backend      ghcr.io/shuffle/shuffle-backend:latest    "./shufflebackend"       backend      About a minute ago   Up About a minute   0.0.0.0:5001->5001/tcp, [::]:5001->5001/tcp
+shuffle-frontend     ghcr.io/shuffle/shuffle-frontend:latest   "/entrypoint.sh ngin…"   frontend     About a minute ago   Up About a minute   0.0.0.0:3001->80/tcp, [::]:3001->80/tcp, 0.0.0.0:3443->443/tcp, [::]:3443->443/tcp
+shuffle-opensearch   opensearchproject/opensearch:3.2.0        "./opensearch-docker…"   opensearch   About a minute ago   Up About a minute   0.0.0.0:9200->9200/tcp, [::]:9200->9200/tcp
+shuffle-orborus      ghcr.io/shuffle/shuffle-orborus:latest    "./orborus"              orborus      About a minute ago   Up About a minute   
